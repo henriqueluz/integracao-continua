@@ -18,7 +18,7 @@ public class TestUsuarioService {
 		List<Usuario> usuarios = usuarioService.listar();
 		assertEquals(5, usuarios.size());
 		for (Usuario usuario : usuarios) {
-			assertEquals("teste123", usuario.getSenha());
+			assertEquals("teste13", usuario.getSenha());
 			assertEquals(usuario.getNome().toLowerCase()
 					+ "@gmail.com", usuario.getEmail());
 		}
