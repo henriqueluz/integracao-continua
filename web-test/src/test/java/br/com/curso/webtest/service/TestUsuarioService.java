@@ -16,7 +16,7 @@ public class TestUsuarioService {
 	@Test
 	public void testListar() {
 		List<Usuario> usuarios = usuarioService.listar();
-		assertEquals(4, usuarios.size());
+		assertEquals(5, usuarios.size());
 		for (Usuario usuario : usuarios) {
 			assertEquals("teste13", usuario.getSenha());
 			assertEquals(usuario.getNome().toLowerCase()
